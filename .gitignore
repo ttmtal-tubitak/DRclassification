@@ -1,0 +1,51 @@
+# 
+
+### Laravel ###
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+/node_modules
+/public/hot
+/public/storage
+/public/shell/*
+/public/flask/*
+/public/pyapi/*
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea 
+/.vscode
+.composer.lock
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+public/flask/e50
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+public/flask/e50
+public/shell
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+# End
+ 
