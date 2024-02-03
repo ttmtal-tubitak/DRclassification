@@ -118,7 +118,7 @@ pre{
     bottom: 0;
     width: 300px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #d2deeb;
     overflow-x: hidden;
     font-size: 18px;
 }
@@ -416,7 +416,7 @@ body.one-content-column-version .content-page .content pre {
     max-width: 100%;
 }
 body.one-content-column-version .content-page {
-    background-color: #323f4c;
+    background-color: #2d3748;
 }
 body.one-content-column-version .content h1:first-child,
 body.one-content-column-version .content h2,
