@@ -1,5 +1,5 @@
 
-# Prevelansı Yüksek Deri Hastalıklarının Derin Öğrenme ile Sınıflandırılması ve Web Uygulamsı
+#  Evrişimli Sinir Ağlarıyla Diyabetik Retinopati Sınıflandırması: GPU-TPU Verimlilik Analizi ve Tanısal API Geliştirme
 
 Bu proje 2024 Tübitak 2204-A Liselerarası Proje Yarışmasına katılmıştır. Proje **Eskişehir Türk Telekom Mesleki ve Teknik Anadolu Lisesi** Öğrencileri ***Metehan Çakan, Aleyna Aktuğ ve Doğan Can Karakoç*** tarafından hazırlanmıştır. 
 
