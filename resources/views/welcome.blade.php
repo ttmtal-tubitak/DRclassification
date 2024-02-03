@@ -122,7 +122,7 @@
 
                 <div class="row mt-3" style=" margin-top: 10px; text-align: center;">
                     <div class="col-12" style="color: #18428a !important">
-                        <a href="https://github.com/ttmtal-tubitak/dhtu" target="_blank"><i class="bi bi-github" style="font-size: 33px; margin-right: 10px;"></i></a> 
+                        <a href="https://github.com/ttmtal-tubitak/DRclassification" target="_blank"><i class="bi bi-github" style="font-size: 33px; margin-right: 10px;"></i></a> 
                         <a href="https://www.kaggle.com/datasets/ascanipek/eyepacs-aptos-messidor-diabetic-retinopathy" target="_blank"><i class="bi bi-database-fill" style="font-size: 33px"></i></a> 
                     </div>
                 </div>

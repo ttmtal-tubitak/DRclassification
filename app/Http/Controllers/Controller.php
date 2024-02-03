@@ -179,12 +179,11 @@ class Controller extends BaseController
                     'input_data' => $fileUrl
                 ]);
                 $predres = [
-                    'İnfeksiyöz Deri Hastalığı' => $response[0][0],
-                    'Ekzama' => $response[0][1],
-                    'Akne' => $response[0][2],
-                    'Pigmente Bağlı Deri Hastalığı' => $response[0][3],
-                    'İyi Huylu Deri Tümörü' => $response[0][4],
-                    'Kötü Huylu Deri Tümörü' => $response[0][5],
+                    'Sağlıklı' => $response[0][0],
+                    'Hafif DR' => $response[0][1],
+                    'Orta DR' => $response[0][2],
+                    'Şiddetli DR' => $response[0][3],
+                    'Proliferatif DR' => $response[0][4],
                 ];
                 return response()->json(['image' => $fileUrl, 'predicts' => $predres], 200);
                 // return [$fileUrl, $response[0]];

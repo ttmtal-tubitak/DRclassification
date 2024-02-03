@@ -1,16 +1,15 @@
 
 # Prevelansı Yüksek Deri Hastalıklarının Derin Öğrenme ile Sınıflandırılması ve Web Uygulamsı
 
-Bu proje 2023 Tübitak 2204-A Liselerarası Proje Yarışmasında Türkiye 2.liği ödülünü almıştır. Proje **Eskişehir Türk Telekom Mesleki ve Teknik Anadolu Lisesi** Öğrencileri ***Enes Bostan, Defne Çal ve Irmak Derici*** tarafından hazırlanmıştır. Projede öneclikle derin öğrenme modellerinden EfficientNet B0-B7 arasındaki 8 model ile eğitim gerçekleştirilmiş ve başarım düzeyi en yüksek olan B7 modeli bir web uygulamasına entegre edilerek kullanılabilir bir yapay zeka uygulaması geliştirilmiştir. Proje Bursa bölgesinde Yazılım dalında bölge birinciliği kazanmış ve 5-9 Haziran 2023 tarihlerinde Ankara'da gerçekleştirilen Türkiye finallerinde 2. lik ödülünü almaya hak kazanmıştır. 
-
+Bu proje 2024 Tübitak 2204-A Liselerarası Proje Yarışmasına katılmıştır. Proje **Eskişehir Türk Telekom Mesleki ve Teknik Anadolu Lisesi** Öğrencileri ***Metehan Çakan, Aleyna Aktuğ ve Doğan Can Karakoç*** tarafından hazırlanmıştır. 
 
 ## Özet 
-Deri hastalıkları insanların dış görünüşleri ile yakından ilgili olduğundan psikolojik durumlarını ve sosyal ilişkilerini olumsuz etkileyebilmektedir. Deri hastalıklarının en tehlikelisi olarak görülen kötü huylu deri tümörleri ise kanser hastalıkları içinde en çok görülen kanser türlerinin başında gelmektedir. Medikal deri görüntülerinden deri hastalıklarının sınıflandırılarak bir ön teşhis gerçekleştirilmesi uzman hekimlerin iş yükünü azaltabilmekte, zamandan ve sağlık harcamalarından tasarruf sağlayabilmektedir. Ayrıca yapay zeka destekli bilgisayarla görü sistemleri ile deri kanserinin erken teşhisi açısından hastalar için uyarı mekanizması sağlanabilir. Bu çalışmada derin öğrenme algoritmalarından Evrişimli Sinir Ağları kullanılarak anormal lezyonlara sahip deri görüntülerinden hastalık teşhisi gerçekleştirebilen bir model geliştirilmesi ve web tabanlı bir uygulama ile entegre edilmesi amaçlanmıştır. Çalışmada açık kaynaklı yayınlanan DermNet, Dermatology Atlas ve Kaggle veri tabanlarında bulunan infeksiyöz deri hastalıkları, ekzama, akne, pigment hastalıkları, iyi ve kötü huylu tümör olmak üzere 6 farklı deri hastalığına ait 38.760 adet görsel kullanılmıştır. EfficientNet-B7 modeli ile transfer öğrenme metodolojisi kullanılarak geliştirilen derin öğrenme modelinin eğitim, test ve doğrulama aşamalarında kullanmak amacıyla veri seti 0.80:0.10:0.10 oranında bölünmüştür. Aşırı öğrenme probleminin önüne geçilmesi için veri artırma, erken durdurma ve öğrenme oranı azaltma teknikleri kullanılmıştır. Geliştirilen model 6 farklı deri hastalığı için %82 oranında doğru sınıflandırma yapmaktadır. Çalışmanın sonuçlarına göre pigmente bağlı deri hastalıkları için modele aktarılan veri miktarının yetersiz olmasından dolayı bu hastalığa ait tahmin başarımının diğerlerine göre düşük olduğu görülmüştür. Model, geliştirilen web tabanlı uygulama ile entegre edilerek hastalık teşhisi yapan somut bir ürün haline getirilmiştir.
+Diyabetin başlangıcından itibaren görülebilen ve diyabet sonrasında çok hızlı bir ilerleme gösterebilen retinal hasarların erken teşhisi tedavi için büyük önem taşımaktadır. Diyabetik Retinopati hastalığının medikal yapay zeka uygulamaları ile sınıflandırılarak hastaların tedavi sürecine yönlendirilmesi erken teşhisin yanında uzmanların iş yükünü, insana bağlı hataları ve sağlık alanında yapılan harcamaları azaltarak verimlilik sağlayabilir. Projenin ana hedef kitlesi diyabet hastaları ve uzman hekimlerdir. Bu projede Diyabetik Retinopati düzeyleri ResNet, InceptionV3 ve EfficientNetB7 algoritmaları kullanılarak GPU ve TPU üzerinde ayrı ayrı model geliştirilerek performans ve verimlilik açısından karşılaştırılmıştır. Çalışmadan elde edilen bulgulara göre en yüksek doğruluk oranına EffcientNetB7 algoritması ile ulaşılmıştır. Ayrıca eğitim sürecinde TPU kullanmanın GPU’ya göre ortalama 4 kat verimli olduğu bunun yanında doğruluk, f1 skoru, kesinlik ve duyarlılık değerlerinin GPU ve TPU’ya bağlı istatistiksel olarak anlamlı farklılaşma göstermediği sonucuna ulaşılmıştır (p<,05). Çalışmada açık kaynaklı yayınlanan Messidor, EyePacs ve APTOS veri setleri birleştirilerek elde edilen toplam 92.501 adet fundus görüntüsü kullanılmıştır. Veri seti geliştirilen tüm modeller için eğitim (%80), doğrulama (%10) ve test (%10) şeklinde bölünmüştür. Aşırı uyumun önüne geçebilmek amacı ile öğrenme oranı azaltma, veri artırma ve dropout teknikleri uygulanmıştır. EffcientNetB7 ile TPU üzerinde geliştirilen modelde %84’lük doğruluk oranına ulaşılmıştır. Geliştirilen modelin katsayıları kullanılarak fundus görüntüleme cihazlarının anlık teşhis yapabilmesi için bir API geliştirilmiş web tabanlı bir uygulama ile entegre edilerek yerel geliştirme ortamında çalıştırılarak test edilmiştir.
 
 ## Kullanılan Teknolojiler
-* Projenin model geliştirme aşaması Kaggle platformunda Tesla P100 grafik kartına sahip sunucularda TensorFlow ve Keras kütüphaneleri kullanılarak gerçekleştirilmiştir.
+* Projenin model geliştirme aşaması Kaggle platformunda Tesla P100 GPU ve T3 TPU ile TensorFlow ve Keras kütüphaneleri kullanılarak gerçekleştirilmiştir.
 
-* Geliştirilen model kaydedilerek dışarı aktarılmış ve sonrasında web uygulamasına entegrasyonu sağlanmıştır. 
+* Geliştirilen model kaydedilerek dışarı aktarılmış ve sonrasında API ve web uygulamasına entegrasyonu sağlanmıştır. 
 
 * Web uygulaması Laravel 8 Framework'ü kullanılarak geliştirilmiştir.
 
@@ -26,16 +25,16 @@ Deri hastalıkları insanların dış görünüşleri ile yakından ilgili oldu�
 
 
 ## Veri Seti
-Projede kullanılan veri setine buradan ulaşabilirsiniz: [Veri Seti](https://www.kaggle.com/datasets/ascanipek/skin-diseases)
+Projede kullanılan veri setine buradan ulaşabilirsiniz: [Veri Seti](https://www.kaggle.com/datasets/ascanipek/eyepacs-aptos-messidor-diabetic-retinopathy)
 
 
 # Uygulama
 
-Projenin Web Uygulamasına buradan ulaşabilirsiniz: [Uygulamanın Yayında Olan Versiyonu](http://34.118.27.46/)
+Projenin Web Uygulamasına buradan ulaşabilirsiniz: [Uygulamanın Yayında Olan Versiyonu](http://...)
 
 # REST API
 
-3 . Parti Uygulamalarda kullanılmak üzere geliştirilen API'a ait HTTP istek türleri
+Funuds görüntüleme cihazlarında ve farklı uygulamalarda kullanılmak üzere geliştirilen API'a ait HTTP istek türleri
 
 ## API EndPoint Listesi
 
@@ -66,12 +65,11 @@ Projenin Web Uygulamasına buradan ulaşabilirsiniz: [Uygulamanın Yayında Olan
     {
         "image": "..\/img\/preds\/api_date_25-05-2023_21-17-01-559948419.jpg",
         "predicts": {
-            "İnfeksiyöz Deri Hastalığı": 0.8316075801849365,
-            "Ekzama": 0.0025978132616728544,
-            "Akne": 0.0003459408471826464,
-            "Pigmente Bağlı Deri Hastalığı": 0.0003996501909568906,
-            "İyi Huylu Deri Tümörü": 0.16152003407478333,
-            "Kötü Huylu Deri Tümörü": 0.003528905799612403
+            "0 - No DR": 0.8316075801849365,
+            "1 - Hafif": 0.0025978132616728544,
+            "2 - Orta": 0.0003459408471826464,
+            "3 - Şiddetli": 0.0003996501909568906,
+            "4 - Proliferatif": 0.16152003407478333
         }
     }
 
@@ -103,12 +101,11 @@ xhr.send(data);
     {
         "image": "..\/img\/preds\/api_base64_date_25-05-2023_22-29-19-391309081.jpeg",
         "predicts": {
-            "İnfeksiyöz Deri Hastalığı": 0.8316075801849365,
-            "Ekzama": 0.0025978132616728544,
-            "Akne": 0.0003459408471826464,
-            "Pigmente Bağlı Deri Hastalığı": 0.0003996501909568906,
-            "İyi Huylu Deri Tümörü": 0.16152003407478333,
-            "Kötü Huylu Deri Tümörü": 0.003528905799612403
+            "0 - No DR": 0.8316075801849365,
+            "1 - Hafif": 0.0025978132616728544,
+            "2 - Orta": 0.0003459408471826464,
+            "3 - Şiddetli": 0.0003996501909568906,
+            "4 - Proliferatif": 0.16152003407478333
         }
     }
 

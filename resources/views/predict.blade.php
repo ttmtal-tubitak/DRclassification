@@ -53,10 +53,10 @@
                 </div>
             @endif
             
-            <div class="container" style="color: #e2e8f0; font-size:21px;">
+            <div class="container" style="color: #2d3748; font-size:21px;">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0" style="display: flex; font-family: 'Nunito', sans-serif; font-size: 1.2em; color: #302def; font-weight: 900; justify-content: space-between; flex-direction: row; flex-wrap: wrap;">
                     <span>Diyabetik Retinopati Teşhisi</span>
-                    <span id="timer" style="display: none; color: white; font-size: 17px; margin-left:10px; margin-top: 13px">
+                    <span id="timer" style="display: none; color: #2d3748; font-size: 17px; margin-left:10px; margin-top: 13px">
                         <span class="col-3 myclass" id="dakika">00</span>
                         <span class="col-1 myclass">:</span>
                         <span class="col-3 myclass" id="saniye">00</span>
