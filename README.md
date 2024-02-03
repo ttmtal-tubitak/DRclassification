@@ -34,7 +34,7 @@ Projenin Web Uygulamasına buradan ulaşabilirsiniz: [Uygulamanın Yayında Olan
 
 # REST API
 
-Funuds görüntüleme cihazlarında ve farklı uygulamalarda kullanılmak üzere geliştirilen API'a ait HTTP istek türleri
+Fundus görüntüleme cihazlarında ve farklı uygulamalarda kullanılmak üzere geliştirilen API'a ait HTTP istek türleri
 
 ## API EndPoint Listesi
 
